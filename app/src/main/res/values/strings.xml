@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WifiSwitch3</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab1">开关1</string>
+    <string name="tab2">开关2</string>
+    <string name="tab3">开关3</string>
+    <string name="tab4">开关4</string>
+</resources>
