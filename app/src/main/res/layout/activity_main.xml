@@ -7,19 +7,84 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.design.widget.TabLayout
-        style="@style/MyTabLayout"
-        android:id="@+id/tablayout"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
+    <xyz.victor97.wifiswitch.wifiswitch3.ProgressView
+        android:id="@+id/progressview"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="260dp"
+        android:layout_height="260dp" />
 
-    </android.support.design.widget.TabLayout>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:id="@+id/textview"
+        android:background="@drawable/oval_off"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="105dp"
+        android:textSize="80sp"
+        android:elevation="4dp"/>
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/viewpager"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent">
-    </android.support.v4.view.ViewPager>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sfab1"
+        app:pressedTranslationZ="12dp"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sfab2"
+        app:pressedTranslationZ="12dp"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="410dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sfab3"
+        app:pressedTranslationZ="12dp"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="440dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sfab4"
+        app:pressedTranslationZ="12dp"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="470dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sfab5"
+        app:pressedTranslationZ="12dp"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sfab6"
+        app:pressedTranslationZ="12dp"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="530dp"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@android:drawable/ic_lock_power_off"
+        android:backgroundTint="#505050"
+        android:tint="@android:color/tertiary_text_light"
+        android:layout_marginTop="560dp"
+        app:borderWidth="0dp"
+        app:pressedTranslationZ="12dp"/>
 
 
 
