@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         c = Calendar.getInstance();
 
         mSocketService = new SocketService(this);
-        mSocketService.StartSocket("192.168.1.100", 6789);
+        mSocketService.StartSocket("192.168.4.1", 6789);
 
         mTextview = (TextView) findViewById(R.id.textview);
         mProgressView = (ProgressView) findViewById(R.id.progressview);
